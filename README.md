@@ -111,7 +111,7 @@ To ensure a fair comparsion with [Li _et al._ (2022)](https://arxiv.org/abs/2210
 #### 5. Automatic Evaluation: <a href='#all_catelogue'>[Back to Top]</a>
 This section describes how to replicate the automatic evaluation results (i.e. the Figure below) for contrastive search as well as the baseline methods.
 
-<img src="./automatic_evaluation_results.png" width="950" height="300">
+<img src="./automatic_evaluation_results.png" width="800" height="250">
 
 
 
