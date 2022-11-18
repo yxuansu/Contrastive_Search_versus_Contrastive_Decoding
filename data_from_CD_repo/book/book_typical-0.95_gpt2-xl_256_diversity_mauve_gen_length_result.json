@@ -1,0 +1,8 @@
+[
+    {
+        "reference_div": 94.68,
+        "prediction_dive": 96.29,
+        "prediction_gen_len": 199.01,
+        "mauve_score": 88.58
+    }
+]
