@@ -113,6 +113,14 @@ This section describes how to replicate the automatic evaluation results (i.e. t
 
 <img src="./automatic_evaluation_results.png" width="800" height="250">
 
+<span id='baseline_evaluation'/>
+
+##### 5.1. Evaluate Baseline Results:
+
+<span id='baseline_diversity_and_mauve'/>
+
+###### 5.1.1. Diversity and MAUVE:
+
 
 
 
