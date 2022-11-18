@@ -109,7 +109,7 @@ To ensure a fair comparsion with [Li _et al._ (2022)](https://arxiv.org/abs/2210
 <span id='automatic_evaluation'/>
 
 #### 5. Automatic Evaluation: <a href='#all_catelogue'>[Back to Top]</a>
-This section describes how to replicate the automatic evaluation results for contrastive search as well as the baseline methods.
+This section describes how to replicate the automatic evaluation results (i.e. the Figure below) for contrastive search as well as the baseline methods.
 
 
 
