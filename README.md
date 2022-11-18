@@ -156,6 +156,7 @@ The arguments are as follows:
 #### 6. Human Evaluation: <a href='#all_catelogue'>[Back to Top]</a>
 To ensure the reproducibility of our study, we also released the human annotations in our experiments of human evaluation.
 
+<img src="./human_evaluation_results.png" width="600" height="360">
 
 ```
 ========================================== Domain: Wikinews ==========================================
