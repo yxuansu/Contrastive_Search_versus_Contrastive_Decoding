@@ -33,6 +33,9 @@ If you find our paper and resources useful, please kindly leave a star and cite 
 * <a href='#introduction'>1. Introduction</a>
 * <a href='#environment_setup'>2. Environment Setup</a>
 * <a href='#data'>3. Benchmark Data and Baseline Results</a>
+* <a href='#inference'>4. Inference with Contrastive Search</a>
+* <a href='#automatic_evaluation'>5. Automatic Evaluation</a>
+* <a href='#human_evaluation'>6. Human Evaluation</a>
 
 ****
 
@@ -89,6 +92,13 @@ To ensure a fair comparsion with [Li _et al._ (2022)](https://arxiv.org/abs/2210
             ├── ./book_p-0.95_gpt2-xl_256.jsonl # Nucleus sampling result.
             ├── ./book_typical-0.95_gpt2-xl_256.jsonl # Typical sampling result.
             └── ./book_gpt2-0.8-t0.5_gpt2-xl_256.jsonl # Contrastive decoding result.
+
+****
+
+<span id='inference'/>
+
+#### 4. Inference with Contrastive Search: <a href='#all_catelogue'>[Back to Top]</a>
+
 
 
 ```
