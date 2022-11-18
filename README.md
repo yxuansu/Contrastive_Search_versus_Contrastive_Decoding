@@ -38,7 +38,7 @@ If you find our paper and resources useful, please kindly leave a star and cite 
     * <a href='#baseline_evaluation'>5.1. Evaluate Baseline Results</a>
         * <a href='#baseline_diversity_and_mauve'>5.1.1. Diversity and MAUVE</a>
 * <a href='#human_evaluation'>6. Human Evaluation</a>
-* <a href='#case_study'>7. Replicating Case Study of Contrastive Search</a>
+* <a href='#case_study'>7. Replicating Case Study Results of Contrastive Search</a>
 
 ****
 
@@ -120,6 +120,13 @@ This section describes how to replicate the automatic evaluation results (i.e. t
 <span id='baseline_diversity_and_mauve'/>
 
 ###### 5.1.1. Diversity and MAUVE:
+To replicate the diversity and MAUVE results of the baseline methods, please run the following commands:
+```yaml
+chmod +x ./measure_CD_result.sh
+./measure_CD_result.sh
+```
+
+
 
 
 
