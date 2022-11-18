@@ -149,6 +149,14 @@ The arguments are as follows:
 **[Note]** After the evaluation is completed, the evaluated results will saved in the same directory as the `--test_path`, e.g. `./data_from_CD_repo/wikinews/wikinews_greedy_gpt2-xl_256_opt-2.7b_coherence_result.json`.
 
 
+****
+
+<span id='human_evaluation'/>
+
+#### 6. Human Evaluation: <a href='#all_catelogue'>[Back to Top]</a>
+To ensure the reproducibility of our study, we also released the human annotations in our experiments of human evaluation.
+
+
 ```
 ========================================== Domain: Wikinews ==========================================
 Contrastive Search is better at 68.5%; Two methods are comparable at 2.0%; Contrastive Decoding is better at 29.5%
