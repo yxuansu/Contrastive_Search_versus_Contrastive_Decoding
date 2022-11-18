@@ -7,6 +7,12 @@
 If you find our paper and resources useful, please kindly leave a star and cite our papers. Thanks!
 
 ```bibtex
+@article{su2022contrastivestudy,
+  title={An Empirical Study Of Contrastive Search And Contrastive Decoding For Open-ended Text Generation},
+  author={Yixuan Su and Jialu Xu},
+  year={2022}
+}
+
 @article{su2022contrastiveiswhatyouneed,
   title={Contrastive Search Is What You Need For Neural Text Generation},
   author={Yixuan Su and Nigel Collier},
