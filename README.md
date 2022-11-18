@@ -53,6 +53,7 @@ Before running the experiments, please setup the environment as
 ```yaml
 pip install torch
 pip install simctg --upgrade
+pip install mauve-text
 pip install "transformers>=4.24.0"
 ```
 
