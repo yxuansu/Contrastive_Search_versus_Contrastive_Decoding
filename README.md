@@ -35,6 +35,8 @@ If you find our paper and resources useful, please kindly leave a star and cite 
 * <a href='#data'>3. Benchmark Data and Baseline Results</a>
 * <a href='#inference'>4. Inference with Contrastive Search</a>
 * <a href='#automatic_evaluation'>5. Automatic Evaluation</a>
+    * <a href='#baseline_evaluation'>5.1. Evaluate Baseline Results</a>
+        * <a href='#baseline_diversity_and_mauve'>5.1.1. Diversity and MAUVE</a>
 * <a href='#human_evaluation'>6. Human Evaluation</a>
 * <a href='#case_study'>7. Replicating Case Study of Contrastive Search</a>
 
@@ -100,6 +102,15 @@ To ensure a fair comparsion with [Li _et al._ (2022)](https://arxiv.org/abs/2210
 <span id='inference'/>
 
 #### 4. Inference with Contrastive Search: <a href='#all_catelogue'>[Back to Top]</a>
+
+        
+****
+
+<span id='automatic_evaluation'/>
+
+#### 5. Automatic Evaluation: <a href='#all_catelogue'>[Back to Top]</a>
+This section describes how to replicate the automatic evaluation results for contrastive search as well as the baseline methods.
+
 
 
 
