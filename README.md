@@ -38,7 +38,7 @@ If you find our paper and resources useful, please kindly leave a star and cite 
     * <a href='#baseline_evaluation'>5.1. Evaluate Baseline Results</a>
         * <a href='#baseline_diversity_and_mauve'>5.1.1. Diversity and MAUVE</a>
         * <a href='#baseline_coherence'>5.1.2. Coherence</a>
-* <a href='#human_evaluation'>6. Human Evaluation</a>
+* <a href='#human_evaluation'>6. Human Evaluation Results</a>
 * <a href='#case_study'>7. Replicating Case Study Results of Contrastive Search</a>
 
 ****
@@ -153,7 +153,7 @@ The arguments are as follows:
 
 <span id='human_evaluation'/>
 
-#### 6. Human Evaluation: <a href='#all_catelogue'>[Back to Top]</a>
+#### 6. Human Evaluation Results: <a href='#all_catelogue'>[Back to Top]</a>
 To ensure the reproducibility of our study, we also released the human annotations in our experiments of human evaluation.
 
 <img src="./human_evaluation_results.png" width="650" height="360">
