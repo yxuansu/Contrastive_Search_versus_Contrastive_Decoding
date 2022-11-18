@@ -30,7 +30,6 @@ If you find our paper and resources useful, please kindly leave a star and cite 
 }
 ```
 
-
 ****
 
 <span id='all_catelogue'/>
@@ -39,7 +38,7 @@ If you find our paper and resources useful, please kindly leave a star and cite 
 * <a href='#introduction'>1. Introduction</a>
 * <a href='#environment_setup'>2. Environment Setup</a>
 * <a href='#data'>3. Benchmark Data and Baseline Results</a>
-* <a href='#inference'>4. Inference with Contrastive Search</a>
+* <a href='#inference'>4. Perform Inference with Contrastive Search</a>
 * <a href='#automatic_evaluation'>5. Automatic Evaluation</a>
     * <a href='#baseline_evaluation'>5.1. Evaluate Baseline Results</a>
         * <a href='#baseline_diversity_and_mauve'>5.1.1. Diversity and MAUVE</a>
@@ -111,7 +110,7 @@ To ensure a fair comparsion with [Li _et al._ (2022)](https://arxiv.org/abs/2210
 
 <span id='inference'/>
 
-#### 4. Inference with Contrastive Search: <a href='#all_catelogue'>[Back to Top]</a>
+#### 4. Perform Inference with Contrastive Search: <a href='#all_catelogue'>[Back to Top]</a>
 To perform inference with contrastive search, please run the following commands:
 ```yaml
 cd ./scripts/
