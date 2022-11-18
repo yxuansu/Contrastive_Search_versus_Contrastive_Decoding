@@ -119,6 +119,23 @@ The arguments are as follows:
 * `--alpha`: The hyperparameter $\alpha$ in contrastive search.
 * `--save_path_prefix`: The directory that stores the inferenced result. 
 
+> **** To ensure the reproducibility of our experiments, we provide the inferenced results of contrastive search as:
+
+    .
+    └── ./inference_results/gpt2-xl/             
+        └── ./wikinews/ # Results of benchmark from the news domain.
+            ├── ./wikinews_contrastive_k_5_alpha_0.6_result.json # The inferenced results of contrastive search.
+            ├── ./wikinews_contrastive_k_5_alpha_0.6_result_diversity_mauve_gen_length_result.json # The evaluation results of diversity and MAUVE.
+            └── ./wikinews_contrastive_k_5_alpha_0.6_result_opt-2.7b_coherence_result.json # The evaluation result of coherence.
+        └── ./wikitext/ # Results of benchmark from the wikipedia domain.
+            ├── ./wikitext_contrastive_k_5_alpha_0.6_result.json # The inferenced results of contrastive search.
+            ├── ./wikitext_contrastive_k_5_alpha_0.6_result_diversity_mauve_gen_length_result.json # The evaluation results of diversity and MAUVE.
+            └── ./wikitext_contrastive_k_5_alpha_0.6_result_opt-2.7b_coherence_result.json # The evaluation result of coherence.
+        └── ./book/ # Results of benchmark from the story domain.
+            ├── ./book_contrastive_k_6_alpha_0.6_result.json # The inferenced results of contrastive search.
+            ├── ./book_contrastive_k_6_alpha_0.6_result_diversity_mauve_gen_length_result.json # The evaluation results of diversity and MAUVE.
+            └── ./book_contrastive_k_6_alpha_0.6_result_opt-2.7b_coherence_result.json # The evaluation result of coherence.
+
         
 ****
 
