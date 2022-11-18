@@ -67,11 +67,28 @@ To ensure a fair comparsion with [Li _et al._ (2022)](https://arxiv.org/abs/2210
 
     .
     ├── ./data_from_CD_repo/             
-        └── ./benchmarks/   
+        └── ./benchmarks/ # The folder that contains benchmark data.
             ├── ./wikinews_contrastive_gpt2-xl_256.jsonl # News domain benchmark data.
             ├── ./wikitext_contrastive_gpt2-xl_256.jsonl # Wikipedia domain benchmark data.
             └── ./book_contrastive_gpt2-xl_256.jsonl # Story domain benchmark data.
-        └── wit_test_set.json # The test of WIT dataset
+        └── ./wikinews/ # The folder that contains baseline results for the News domain.
+            ├── ./wikinews_greedy_gpt2-xl_256.jsonl # Greedy search result.
+            ├── ./wikinews_k-50_gpt2-xl_256.jsonl # Top-k sampling result.
+            ├── ./wikinews_p-0.95_gpt2-xl_256.jsonl # Nucleus sampling result.
+            ├── ./wikinews_typical-0.95_gpt2-xl_256.jsonl # Typical sampling result.
+            └── ./wikinews_gpt2-0.8-t0.5_gpt2-xl_256.jsonl # Contrastive decoding result.
+        └── ./wikitext/ # The folder that contains baseline results for the Wikipedia domain.
+            ├── ./wikitext_greedy_gpt2-xl_256.jsonl # Greedy search result.
+            ├── ./wikitext_k-50_gpt2-xl_256.jsonl # Top-k sampling result.
+            ├── ./wikitext_p-0.95_gpt2-xl_256.jsonl # Nucleus sampling result.
+            ├── ./wikitext_typical-0.95_gpt2-xl_256.jsonl # Typical sampling result.
+            └── ./wikitext_gpt2-0.8-t0.5_gpt2-xl_256.jsonl # Contrastive decoding result.
+        └── ./book/ # The folder that contains baseline results for the Story domain.
+            ├── ./book_greedy_gpt2-xl_256.jsonl # Greedy search result.
+            ├── ./book_k-50_gpt2-xl_256.jsonl # Top-k sampling result.
+            ├── ./book_p-0.95_gpt2-xl_256.jsonl # Nucleus sampling result.
+            ├── ./book_typical-0.95_gpt2-xl_256.jsonl # Typical sampling result.
+            └── ./book_gpt2-0.8-t0.5_gpt2-xl_256.jsonl # Contrastive decoding result.
 
 
 ```
