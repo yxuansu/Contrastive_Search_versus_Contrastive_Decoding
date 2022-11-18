@@ -103,6 +103,13 @@ To ensure a fair comparsion with [Li _et al._ (2022)](https://arxiv.org/abs/2210
 <span id='inference'/>
 
 #### 4. Inference with Contrastive Search: <a href='#all_catelogue'>[Back to Top]</a>
+To perform inference with contrastive search, please run the following commands:
+```yaml
+cd ./scripts/
+chmod +x ./inference_{}.sh
+./inference_{}.sh
+```
+where {} is in ['wikinews', 'wikitext', 'story'].
 
         
 ****
