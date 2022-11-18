@@ -1,6 +1,29 @@
 # An Empirical Comparison Between Contrastive Search And Contrastive Decoding For Open-ended Text Generation
 **Authors**: Yixuan Su and Jialu Xu
 
+**[Contact]** If you have any questions, feel free to contact me via (ys484 at cam.ac.uk).
+
+****
+If you find our paper and resources useful, please kindly leave a star and cite our papers. Thanks!
+
+```bibtex
+@article{su2022contrastiveiswhatyouneed,
+  title={Contrastive Search Is What You Need For Neural Text Generation},
+  author={Yixuan Su and Nigel Collier},
+  journal={arXiv preprint arXiv:2210.14140},
+  year={2022}
+}
+
+@inproceedings{su2022a,
+  title={A Contrastive Framework for Neural Text Generation},
+  author={Yixuan Su and Tian Lan and Yan Wang and Dani Yogatama and Lingpeng Kong and Nigel Collier},
+  booktitle={Advances in Neural Information Processing Systems},
+  editor={Alice H. Oh and Alekh Agarwal and Danielle Belgrave and Kyunghyun Cho},
+  year={2022},
+  url={https://openreview.net/forum?id=V88BafmH9Pj}
+}
+```
+
 
 ****
 
