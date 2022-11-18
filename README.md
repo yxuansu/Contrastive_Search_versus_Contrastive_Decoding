@@ -61,7 +61,17 @@ To ensure a fair comparsion with [Li _et al._ (2022)](https://arxiv.org/abs/2210
 
 **[Note]** All benchmark data and baseline results are provided by [Li _et al._ (2022)](https://arxiv.org/abs/2210.15097) at the authors' released [repository](https://github.com/XiangLi1999/ContrastiveDecoding/tree/main/text-generation/outputs_ignorePrefix_ccnews_256).
 
-The details of the data directory is listed below:
+
+
+> **** The details of the data directory is listed below:
+
+    .
+    ├── ./data_from_CD_repo/             
+        └── ./benchmarks/   
+            ├── ./wikinews_contrastive_gpt2-xl_256.jsonl # News domain benchmark data.
+            ├── ./wikitext_contrastive_gpt2-xl_256.jsonl # Wikipedia domain benchmark data.
+            └── ./book_contrastive_gpt2-xl_256.jsonl # Story domain benchmark data.
+        └── wit_test_set.json # The test of WIT dataset
 
 
 ```
