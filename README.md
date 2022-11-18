@@ -120,7 +120,7 @@ This section describes how to replicate the automatic evaluation results (i.e. t
 <span id='baseline_diversity_and_mauve'/>
 
 ###### 5.1.1. Diversity and MAUVE:
-To replicate the diversity and MAUVE results of the baseline methods, please run the following commands:
+To evaluate the diversity and MAUVE results of the baseline methods, please run the following commands:
 ```yaml
 chmod +x ./measure_CD_result.sh
 ./measure_CD_result.sh
