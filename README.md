@@ -1,4 +1,4 @@
-# An Empirical Study On Contrastive Search And Contrastive Decoding For Open-ended Text Generation
+# An Empirical Study Of Contrastive Search And Contrastive Decoding For Open-ended Text Generation
 **Authors**: Yixuan Su and Jialu Xu
 
 **[Contact]** If you have any questions, feel free to contact me via (ys484 at cam.ac.uk).
