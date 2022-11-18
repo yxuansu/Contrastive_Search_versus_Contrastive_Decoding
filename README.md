@@ -37,6 +37,7 @@ If you find our paper and resources useful, please kindly leave a star and cite 
 * <a href='#automatic_evaluation'>5. Automatic Evaluation</a>
     * <a href='#baseline_evaluation'>5.1. Evaluate Baseline Results</a>
         * <a href='#baseline_diversity_and_mauve'>5.1.1. Diversity and MAUVE</a>
+        * <a href='#baseline_coherence'>5.1.2. Coherence</a>
 * <a href='#human_evaluation'>6. Human Evaluation</a>
 * <a href='#case_study'>7. Replicating Case Study Results of Contrastive Search</a>
 
@@ -130,6 +131,17 @@ The argument is as follows:
 * `--test_path`: The file path of the baseline result, e.g. `./data_from_CD_repo/wikinews/wikinews_greedy_gpt2-xl_256.jsonl`.
 
 
+<span id='baseline_coherence'/>
+
+###### 5.1.2. Diversity and MAUVE:
+To evaluate the coherence of the baseline methods, please run the following commands:
+```yaml
+chmod +x ./measure_CD_coherence.sh
+./measure_CD_coherence.sh
+```
+
+The argument is as follows:
+* `--test_path`: The file path of the baseline result, e.g. `./data_from_CD_repo/wikinews/wikinews_greedy_gpt2-xl_256.jsonl`.
 
 
 
