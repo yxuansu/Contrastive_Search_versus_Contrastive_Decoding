@@ -195,7 +195,7 @@ The annotation file is provided [[here]](./human_evaluation_annotations/human_ev
 |News|Wikipedia|Story|
 |:-------------:|:-------------:|:-------------:|
 |[Results of Contrastive Decoding](./data_from_CD_repo/wikinews/wikinews_gpt2-0.8-t0.5_gpt2-xl_256.jsonl)|[Results of Contrastive Decoding](./data_from_CD_repo/wikitext/wikitext_gpt2-0.8-t0.5_gpt2-xl_256.jsonl)|[Results of Contrastive Decoding](./data_from_CD_repo/book/book_gpt2-0.8-t0.5_gpt2-xl_256.jsonl)|
-|[Results of Contrastive Search]()|[Results of Contrastive Search]()|[Results of Contrastive Search]()|
+|[Results of Contrastive Search](./inference_results/gpt2-xl/wikinews/wikinews_contrastive_k_5_alpha_0.6_result.json)|[Results of Contrastive Search](./inference_results/gpt2-xl/wikitext/wikitext_contrastive_k_5_alpha_0.6_result.json)|[Results of Contrastive Search](./inference_results/gpt2-xl/book/book_contrastive_k_6_alpha_0.6_result.json)|
 
 
 
