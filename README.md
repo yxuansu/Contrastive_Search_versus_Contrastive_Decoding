@@ -111,6 +111,14 @@ chmod +x ./inference_{}.sh
 ```
 where {} is in ['wikinews', 'wikitext', 'story'].
 
+The arguments are as follows:
+* `--model_name`: The name of the language model. In our experiments, we use `gpt2-xl`. 
+* `--dataset_prefix`: The directory that contains the benchmark data. 
+* `--dataset`: The domain of the benchmark data. 
+* `--k`: The hyperparameter $k$ in contrastive search.
+* `--alpha`: The hyperparameter $\alpha$ in contrastive search.
+* `--save_path_prefix`: The directory that stores the inferenced result. 
+
         
 ****
 
