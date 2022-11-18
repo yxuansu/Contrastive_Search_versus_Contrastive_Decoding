@@ -158,6 +158,14 @@ To ensure the reproducibility of our study, we also released the human annotatio
 
 <img src="./human_evaluation_results.png" width="650" height="360">
 
+The annotation file is provided [[here]](./human_evaluation_annotations/human_evaluation_annotations.json). To read the human evaluation results, you can simply run the following commands:
+```yaml
+cd ./human_evaluation_annotations/
+python3 parse_human_annotation_results.py
+```
+
+The expected output is displayed as below.
+
 ```
 ========================================== Domain: Wikinews ==========================================
 Contrastive Search is better at 68.5%; Two methods are comparable at 2.0%; Contrastive Decoding is better at 29.5%
