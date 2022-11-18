@@ -1,5 +1,5 @@
 # An Empirical Comparison Between Contrastive Search And Contrastive Decoding For Open-ended Text Generation
-**Author**: Yixuan Su 
+**Authors**: Yixuan Su and Jialu Xu
 
 
 ****
