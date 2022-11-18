@@ -66,7 +66,7 @@ To ensure a fair comparsion with [Li _et al._ (2022)](https://arxiv.org/abs/2210
 > **** The details of the data directory is listed below:
 
     .
-    ├── ./data_from_CD_repo/             
+    └── ./data_from_CD_repo/             
         └── ./benchmarks/ # The folder that contains benchmark data.
             ├── ./wikinews_contrastive_gpt2-xl_256.jsonl # News domain benchmark data.
             ├── ./wikitext_contrastive_gpt2-xl_256.jsonl # Wikipedia domain benchmark data.
