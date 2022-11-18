@@ -32,6 +32,7 @@ If you find our paper and resources useful, please kindly leave a star and cite 
 ### Catalogue:
 * <a href='#introduction'>1. Introduction</a>
 * <a href='#environment_setup'>2. Environment Setup</a>
+* <a href='#data'>3. Benchmark Data and Baseline Results</a>
 
 ****
 
@@ -50,6 +51,13 @@ pip install torch
 pip install simctg --upgrade
 pip install "transformers>=4.24.0"
 ```
+
+****
+
+<span id='data'/>
+
+#### 3. Benchmark Data and Baseline Results: <a href='#all_catelogue'>[Back to Top]</a>
+To ensure a fair comparsion with [Li _et al._ (2022)](https://arxiv.org/abs/2210.15097), we use the benchmark data provided by the authors [[here]](https://github.com/XiangLi1999/ContrastiveDecoding/tree/main/text-generation/outputs_ignorePrefix_ccnews_256). The results of compared baselines are also provided by the authors [[here]](https://github.com/XiangLi1999/ContrastiveDecoding/tree/main/text-generation/outputs_ignorePrefix_ccnews_256).
 
 
 ```
