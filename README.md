@@ -36,6 +36,7 @@ If you find our paper and resources useful, please kindly leave a star and cite 
 * <a href='#inference'>4. Inference with Contrastive Search</a>
 * <a href='#automatic_evaluation'>5. Automatic Evaluation</a>
 * <a href='#human_evaluation'>6. Human Evaluation</a>
+* <a href='#case_study'>7. Replicating Case Study of Contrastive Search</a>
 
 ****
 
