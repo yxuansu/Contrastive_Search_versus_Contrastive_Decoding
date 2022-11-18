@@ -126,6 +126,9 @@ chmod +x ./measure_CD_result.sh
 ./measure_CD_result.sh
 ```
 
+The argument is as follows:
+* `--test_path`: The file path of the baseline result, e.g. `./data_from_CD_repo/wikinews/wikinews_greedy_gpt2-xl_256.jsonl`.
+
 
 
 
