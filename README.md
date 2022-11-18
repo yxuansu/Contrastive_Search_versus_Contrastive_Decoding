@@ -130,6 +130,8 @@ chmod +x ./measure_CD_result.sh
 The argument is as follows:
 * `--test_path`: The file path of the baseline result, e.g. `./data_from_CD_repo/wikinews/wikinews_greedy_gpt2-xl_256.jsonl`.
 
+**[Note]** After the evaluation is completed, the evaluated results will saved in ...
+
 
 <span id='baseline_coherence'/>
 
@@ -140,10 +142,11 @@ chmod +x ./measure_CD_coherence.sh
 ./measure_CD_coherence.sh
 ```
 
-The argument is as follows:
+The arguments are as follows:
+* `--opt_model_name`: The OPT model used to measure the coherence. In our experiments, we use `facebook/opt-2.7b`.
 * `--test_path`: The file path of the baseline result, e.g. `./data_from_CD_repo/wikinews/wikinews_greedy_gpt2-xl_256.jsonl`.
 
-
+**[Note]** After the evaluation is completed, the evaluated results will saved in ...
 
 
 ```
