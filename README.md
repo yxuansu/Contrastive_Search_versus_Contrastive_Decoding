@@ -44,6 +44,9 @@ If you find our paper and resources useful, please kindly leave a star and cite 
     * <a href='#baseline_evaluation'>5.1. Evaluate Baseline Results</a>
         * <a href='#baseline_diversity_and_mauve'>5.1.1. Diversity and MAUVE</a>
         * <a href='#baseline_coherence'>5.1.2. Coherence</a>
+    * <a href='#contrastive_search_evaluation'>5.2. Evaluate Contrastive Search Results</a>
+        * <a href='#contrastive_search_diversity_and_mauve'>5.2.1. Diversity and MAUVE</a>
+        * <a href='#contrastive_search_coherence'>5.2.2. Coherence</a>
 * <a href='#human_evaluation'>6. Human Evaluation Results</a>
 * <a href='#case_study'>7. Replicating Case Study Results of Contrastive Search</a>
 
@@ -185,6 +188,43 @@ The arguments are as follows:
 * `--test_path`: The file path of the baseline result, e.g. `./data_from_CD_repo/wikinews/wikinews_greedy_gpt2-xl_256.jsonl`.
 
 **[Note]** After the evaluation is completed, the evaluated results will saved in the same directory as the `--test_path`, e.g. `./data_from_CD_repo/wikinews/wikinews_greedy_gpt2-xl_256_opt-2.7b_coherence_result.json`.
+
+
+<span id='contrastive_search_evaluation'/>
+
+##### 5.2. Evaluate Contrastive Search Results:
+
+<span id='contrastive_search_diversity_and_mauve'/>
+
+###### 5.2.1. Diversity and MAUVE:
+To evaluate the diversity and MAUVE results of contrastive search, please run the following commands:
+```yaml
+cd ./scripts/
+chmod +x ./measure_mauve.sh
+./measure_mauve.sh
+```
+
+The argument is as follows:
+* `--test_path`: The file path of the inferenced result.
+
+**[Note]** After the evaluation is completed, the evaluated results will saved in the same directory as the `--test_path`.
+
+
+<span id='contrastive_search_coherence'/>
+
+###### 5.2.2. Coherence:
+To evaluate the coherence of the baseline methods, please run the following commands:
+```yaml
+cd ./scripts/
+chmod +x ./measure_coherence.sh
+./measure_coherence.sh
+```
+
+The arguments are as follows:
+* `--opt_model_name`: The OPT model used to measure the coherence. In our experiments, we use `facebook/opt-2.7b`.
+* `--test_path`: The file path of the inferenced result.
+
+**[Note]** After the evaluation is completed, the evaluated results will saved in the same directory as the `--test_path`.
 
 
 ****
