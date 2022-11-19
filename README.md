@@ -392,3 +392,49 @@ billowing out of the hole and thinking...
 
 ##### 7.4. Qualitative Example in Table 5:
 
+To reproduce the qualitative example in Table 5, we run the following code snippet.
+```python
+# prepare the prompt text
+prefix_text = r'Segun was completely lost. His system was on fire. How could he escape this mountain that had come to Mohamed even when Mohamed never gave it a thought to'
+input_ids = tokenizer(prefix_text, return_tensors='pt').input_ids
+_, prefix_len = input_ids.size()
+
+# generate the result with contrastive search
+output = model.generate(input_ids, penalty_alpha=0.6, top_k=6, max_length=prefix_len+256)
+print("Output:\n" + 100 * '-')
+print(tokenizer.decode(output[0], skip_special_tokens=True))
+print("" + 100 * '-')
+```
+
+<details>
+<summary><b>Model Output: [click to expand]</b></summary>
+  
+```
+Output:
+----------------------------------------------------------------------------------------------------
+Segun was completely lost. His system was on fire. How could he escape this mountain that had come
+to Mohamed even when Mohamed never gave it a thought to do so?
+
+Mohamed looked at the mountain in front of him and thought, "This is the most important thing in my
+life right now. I need to climb this mountain as soon as possible so no one gets the chance to
+catch me."
+
+As a result, he started the climb at 5:30 in the morning without sleeping for three days and three
+nights. It was a grueling and tepid climb with little to no food and very little water. The
+temperature hovered around 30 degrees centigrade (86 degrees Fahrenheit), and there was nothing but
+wind blowing all around him.
+
+After climbing the 1,000 meters (3,280 feet) in less than an hour, Mohamed reached the top of the
+mountain. He felt like he had accomplished something, but at the same time, he was in a daze. He
+had no idea what to do with his newly acquired power of telekinesis.
+
+Mohamed took a deep breath and said, "What the hell am I doing?"
+
+The rest of the day was spent trying to figure out how to get back down to the base camp and what
+was going to happen to him if he made it back alive.
+
+At one point, a group of...
+----------------------------------------------------------------------------------------------------
+```
+</details>
+
