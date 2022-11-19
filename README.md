@@ -345,6 +345,70 @@ Kirby did not confirm the identity of the strike, but said it was...
 
 ##### 7.3. Qualitative Example in Table 4:
 
+To reproduce the qualitative example in Table 4, we run the following code snippet.
+```python
+# prepare the prompt text
+prefix_text = r'The first North Korean crossing at the Paekchin ferry caught the Heavy Mortar Platoon unprepared in the act of setting up its weapons. It also caugh'
+input_ids = tokenizer(prefix_text, return_tensors='pt').input_ids
+_, prefix_len = input_ids.size()
+
+# generate the result with contrastive search
+output = model.generate(input_ids, penalty_alpha=0.6, top_k=5, max_length=prefix_len+256)
+print("Output:\n" + 100 * '-')
+print(tokenizer.decode(output[0], skip_special_tokens=True))
+print("" + 100 * '-')
+```
+
+<details>
+<summary><b>Model Output: [click to expand]</b></summary>
+  
+```
+Output:
+----------------------------------------------------------------------------------------------------
+The first attacks carried out by United States Predator drones in Libya reportedly occurred today,
+as the Pentagon confirmed a strike carried out by the U.S. Air Force in Sirte.
+
+According to Reuters, the drone was targeting militants who "appeared to be preparing to attack a
+vehicle carrying Westerners, possibly American, on the outskirts of the city." It is unclear what
+the target was, but Reuters reports that "the attack was the first time the United States has
+acknowledged using drones in Libya since the overthrow of Muammar Gaddafi in 2011."
+
+In an interview with The New York Times last week, Secretary of State John Kerry said, "We are
+going to continue to take strikes wherever we can get them, but the fact of the matter is there
+are no boots on the ground in Libya right now, which is a good thing for our national security
+and it's a good thing for people's lives."
+
+The Pentagon has been reluctant to provide details about the strikes, citing operational security
+concerns. However, a Pentagon spokesman, Rear Adm. John Kirby, said in a statement that "U.S. 
+forces conducted a strike against what they believed to be al-Qa'ida-associated terrorists in 
+Sirte, Libya, on April 6, targeting a location used by terrorists to train for attacks against 
+Westerners."
+
+Kirby did not confirm the identity of the strike, but said it was...
+
+The first North Korean crossing at the Paekchin ferry caught the Heavy Mortar Platoon unprepared
+in the act of setting up its weapons. It also caugh to the fact that the North Koreans were able
+to get a hold of an M1 Garand and a.30-06, two of the most commonly used weapons in the U.S. Army
+and Marine Corps.
+
+This is the first time in my career that I have been in a situation where a weapon of this calibre
+was used in combat. It was a big shock to all of us and we had no idea what to do with the weapons
+that we had in our hands.
+
+The Heavy Mortar Platoon, under the command of Lt. Cmdr. John Bohn, took cover behind a sandbagged
+bunker and waited for the attack to come. Bohn's men fired at the North Koreans as they approached
+the bunkers, but their ammunition ran out before they could do much damage.
+
+After several minutes of fire, the bunker was breached and the platoon made a hasty retreat to the
+safety of the bunker. As soon as they were out of harm's way, a mortar round slammed into the
+bunker and blew it to smithereens.
+
+"That was one of the most intense moments of my life," Bohn said. "I remember looking at the smoke
+billowing out of the hole and thinking...
+----------------------------------------------------------------------------------------------------
+```
+</details>
+
 <span id='table_5'/>
 
 ##### 7.4. Qualitative Example in Table 5:
