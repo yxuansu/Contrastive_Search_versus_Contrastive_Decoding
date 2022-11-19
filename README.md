@@ -47,11 +47,11 @@ If you find our paper and resources useful, please kindly leave a star and cite 
         * <a href='#contrastive_search_diversity_and_mauve'>5.2.1. Diversity and MAUVE</a>
         * <a href='#contrastive_search_coherence'>5.2.2. Coherence</a>
 * <a href='#human_evaluation'>6. Human Evaluation Results</a>
-* <a href='#case_study'>7. Replicating Case Study Results of Contrastive Search</a>
-    * <a href='#load_language_model'>7.1. Load Language Model</a>
-    * <a href='#table_3'>7.2. Case Study in Table 3</a>    
-    * <a href='#table_4'>7.3. Case Study in Table 4</a>    
-    * <a href='#table_5'>7.4. Case Study in Table 5</a>  
+* <a href='#case_study'>7. Replicating Qualitative Examples of Contrastive Search</a>
+    * <a href='#load_language_model'>7.1. Load the Language Model</a>
+    * <a href='#table_3'>7.2. Qualitative Example in Table 3</a>    
+    * <a href='#table_4'>7.3. Qualitative Example in Table 4</a>    
+    * <a href='#table_5'>7.4. Qualitative Example in Table 5</a>  
     
 ****
 
@@ -274,13 +274,13 @@ Contrastive Search is better at 67.0%; Two methods are comparable at 1.0%; Contr
 
 <span id='case_study'/>
 
-#### 7. Replicating Case Study Results of Contrastive Search: <a href='#all_catelogue'>[Back to Top]</a>
+#### 7. Replicating Qualitative Examples of Contrastive Search: <a href='#all_catelogue'>[Back to Top]</a>
 
 In this section, we show how to reproduce the qualitative examples of contrastive search provided in the paper.
 
 <span id='load_language_model'/>
 
-##### 7.1. Load Language Model:
+##### 7.1. Load the Language Model:
 First, we load the language model as 
 
 ```python
@@ -294,13 +294,13 @@ model.eval()
 
 <span id='table_3'/>
 
-##### 7.2. Case Study in Table 3:
+##### 7.2. Qualitative Example in Table 3:
 
 <span id='table_4'/>
 
-##### 7.3. Case Study in Table 4:
+##### 7.3. Qualitative Example in Table 4:
 
 <span id='table_5'/>
 
-##### 7.4. Case Study in Table 5:
+##### 7.4. Qualitative Example in Table 5:
 
