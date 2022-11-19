@@ -365,27 +365,6 @@ print("" + 100 * '-')
 ```
 Output:
 ----------------------------------------------------------------------------------------------------
-The first attacks carried out by United States Predator drones in Libya reportedly occurred today,
-as the Pentagon confirmed a strike carried out by the U.S. Air Force in Sirte.
-
-According to Reuters, the drone was targeting militants who "appeared to be preparing to attack a
-vehicle carrying Westerners, possibly American, on the outskirts of the city." It is unclear what
-the target was, but Reuters reports that "the attack was the first time the United States has
-acknowledged using drones in Libya since the overthrow of Muammar Gaddafi in 2011."
-
-In an interview with The New York Times last week, Secretary of State John Kerry said, "We are
-going to continue to take strikes wherever we can get them, but the fact of the matter is there
-are no boots on the ground in Libya right now, which is a good thing for our national security
-and it's a good thing for people's lives."
-
-The Pentagon has been reluctant to provide details about the strikes, citing operational security
-concerns. However, a Pentagon spokesman, Rear Adm. John Kirby, said in a statement that "U.S. 
-forces conducted a strike against what they believed to be al-Qa'ida-associated terrorists in 
-Sirte, Libya, on April 6, targeting a location used by terrorists to train for attacks against 
-Westerners."
-
-Kirby did not confirm the identity of the strike, but said it was...
-
 The first North Korean crossing at the Paekchin ferry caught the Heavy Mortar Platoon unprepared
 in the act of setting up its weapons. It also caugh to the fact that the North Koreans were able
 to get a hold of an M1 Garand and a.30-06, two of the most commonly used weapons in the U.S. Army
