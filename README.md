@@ -58,7 +58,9 @@ If you find our paper and resources useful, please kindly leave a star and cite 
 <span id='introduction'/>
 
 #### 1. Introduction: <a href='#all_catelogue'>[Back to Top]</a>
+In the study, we empirically compare the two recently proposed decoding methods, i.e. Contrastive Search (CS) and Contrastive Decoding (CD), for open-ended text generation. The automatic evaluation results suggest that, while CS performs worse than CD on the MAUVE metric, it substantially surpasses CD on the diversity and coherence metrics. More notably, extensive human evaluations across three different domains demonstrate that human annotators are universally more in favor of CS over CD with substantial margins. 
 
+The contradicted results between MAUVE and human evaluations reveal that MAUVE does not accurately reflect human preferences. Therefore, we call upon the research community to develop better evaluation metrics for open-ended text generation.
 ****
 
 <span id='environment_setup'/>
