@@ -48,7 +48,11 @@ If you find our paper and resources useful, please kindly leave a star and cite 
         * <a href='#contrastive_search_coherence'>5.2.2. Coherence</a>
 * <a href='#human_evaluation'>6. Human Evaluation Results</a>
 * <a href='#case_study'>7. Replicating Case Study Results of Contrastive Search</a>
-
+    * <a href='#load_language_model'>7.1. Load Language Model</a>
+    * <a href='#table_3'>7.2. Case Study in Table 3</a>    
+    * <a href='#table_4'>7.3. Case Study in Table 4</a>    
+    * <a href='#table_5'>7.4. Case Study in Table 5</a>  
+    
 ****
 
 <span id='introduction'/>
@@ -265,3 +269,38 @@ Contrastive Search is better at 65.0%; Two methods are comparable at 2.0%; Contr
 Contrastive Search is better at 67.0%; Two methods are comparable at 1.0%; Contrastive Decoding is better at 32.0%
 ------------------------------------------------------------------------------------------------------
 ```
+
+****
+
+<span id='case_study'/>
+
+#### 7. Replicating Case Study Results of Contrastive Search: <a href='#all_catelogue'>[Back to Top]</a>
+
+In this section, we show how to reproduce the qualitative examples of contrastive search provided in the paper.
+
+<span id='load_language_model'/>
+
+##### 7.1. Load Language Model:
+First, we load the language model as 
+
+```python
+from transformers import GPT2Tokenizer, GPT2LMHeadModel
+
+model_name = 'gpt2-xl'
+tokenizer = GPT2Tokenizer.from_pretrained(model_name)
+model = GPT2LMHeadModel.from_pretrained(model_name)
+model.eval()
+```
+
+<span id='table_3'/>
+
+##### 7.2. Case Study in Table 3:
+
+<span id='table_4'/>
+
+##### 7.3. Case Study in Table 4:
+
+<span id='table_5'/>
+
+##### 7.4. Case Study in Table 5:
+
