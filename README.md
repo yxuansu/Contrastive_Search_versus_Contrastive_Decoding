@@ -1,6 +1,8 @@
 # An Empirical Study On Contrastive Search And Contrastive Decoding For Open-ended Text Generation
 **Authors**: Yixuan Su and Jialu Xu
 
+This repository contains code other related resources of our paper ["An Empirical Study On Contrastive Search And Contrastive Decoding For Open-ended Text Generation"](https://arxiv.org/abs/2211.10797).
+
 **[Contact]** If you have any questions, feel free to contact me via (ys484 at cam.ac.uk).
 
 ****
