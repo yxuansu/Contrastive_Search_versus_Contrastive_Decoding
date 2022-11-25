@@ -9,9 +9,10 @@ This repository contains code other related resources of our work ["An Empirical
 If you find our paper and resources useful, please kindly leave a star and cite our papers. Thanks!
 
 ```bibtex
-@article{su2022contrastivestudy,
+@article{su2022empirical,
   title={An Empirical Study On Contrastive Search And Contrastive Decoding For Open-ended Text Generation},
-  author={Yixuan Su and Jialu Xu},
+  author={Su, Yixuan and Xu, Jialu},
+  journal={arXiv preprint arXiv:2211.10797},
   year={2022}
 }
 
